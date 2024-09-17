@@ -1,0 +1,169 @@
+/*Importaciones*/
+
+/*Variables*/
+
+:root{
+    --background-color: #dde1e4;
+    --background-color-content: #fff;
+}
+
+*{
+    font-size: 10px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: var(--background-color);
+}
+
+.content__general{
+    background-color: var(--background-color-content);
+    width: 793px;
+    height: 1122px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content__title{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 3rem;
+}
+
+.content__separator {
+    width: 80%; 
+    margin: 5px auto;
+    border: 0;
+    height: 1px;
+    background-color: #333;
+}
+
+.content__personal-data{
+    text-align: center;
+    & i{
+        font-size: 1.2rem;
+    }
+
+    & a{
+        font-size: 1.2em;
+        text-decoration: none;
+        color: black;
+    }
+
+    & span{
+        font-size: 1.2rem;
+    }
+}
+
+.content__formation h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.formation_experience {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.formation__center-title {
+    flex: 1;
+    text-align: left;
+    margin-left: 75px;
+}
+
+.formation__place-year {
+    text-align: right;
+    margin-right: 75px;
+}
+
+.formation_center b,
+.formation_title,
+.formation__place,
+.formation__year{
+    font-size: 1.5rem;
+}
+
+.content__experience h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.content__job {
+    margin-bottom: 20px;
+}
+
+.experience__header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.experience__company-job {
+    text-align: left;
+    margin-left: 75px;
+}
+
+.experience__place-years {
+    text-align: right;
+    margin-right: 75px;
+}
+
+.experience__job-description {
+    margin-top: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.experience__company b,
+.experience__job,
+.experience__place,
+.experience__years,
+.experience__job-description,
+ul li,
+ul li b{
+    font-size: 1.5rem;
+}
+
+/* Para centrar el ul */
+.experience__job-list {
+    width: 75%;
+    padding: 0;
+    margin: 0 auto;
+    margin-left: 120px;
+    text-align: left;
+    display: table;
+}
+
+.content__skills-interest h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.skills__content{
+    margin-left: 75px;
+}
+
+.skills__skill b{
+    font-size: 1.5rem;
+}
+
+.skills__content ul{
+    margin-left: 40px;
+}
+
+.skills__content span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
